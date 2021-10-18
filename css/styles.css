@@ -297,6 +297,7 @@ header {
 }
 
 .list-portfolio p {
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
