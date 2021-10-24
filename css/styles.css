@@ -142,7 +142,6 @@ header {
 .button {
   padding: 10px 32px;
   margin-top: 30px;
-  /* margin-bottom: 200px; */
   background-color: var(--accent-color);
   color: var(--primery-white-color);
   font-family: 'Roboto', sans-serif;
@@ -165,7 +164,6 @@ header {
 .list.buttons-portfolio {
   display: flex;
   justify-content: center;
-  /* padding-top: 94px; */
   margin-bottom: 50px;
 }
 .list.buttons-portfolio .item {
@@ -187,10 +185,13 @@ header {
   cursor: pointer;
 }
 .list .buttons-portfolio:hover,
-.list .buttons-portfolio:focus {
+.list .buttons-portfolio:focus,
+.list .button-active {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
+    0px 2px 2px rgb(0 0 0 / 12%);
 }
 .list .buttons-portfolio:active {
   color: var(--primery-text-color);
@@ -210,9 +211,6 @@ header {
   width: 370px;
   border: 1px solid #ececec;
 }
-/* .flex-element p {
-  margin: 0 24px;
-} */
 .flex-element:nth-child(3n) {
   margin-right: 0;
 }
@@ -223,7 +221,6 @@ header {
   padding: 20px 24px;
 }
 .list-portfolio p {
-  /* margin-bottom: 20px; */
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -240,8 +237,6 @@ header {
 .section-peculiarities .list {
   display: flex;
   justify-content: center;
-  /* justify-content: space-around; */
-  /* padding: 94px 0; */
 }
 .feature-list {
   margin-right: 30px;
@@ -268,20 +263,19 @@ header {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-
+.section-work {
+  padding-bottom: 94px;
+}
 .section-work .list,
 .section-command .list {
   display: flex;
   /* justify-content: space-around; */
-  padding-bottom: 94px;
 }
 .work-list {
   margin-right: 30px;
 }
 .work,
 .command {
-  /* padding-top: 94px;
-  padding-bottom: 50px; */
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -298,7 +292,7 @@ header {
   letter-spacing: 0.03em;
 }
 .section-command {
-  padding-top: 94px;
+  padding: 94px 0;
   background: #f5f4fa;
 }
 .command-list {
@@ -315,7 +309,6 @@ header {
   margin-right: 0;
 }
 .list-name {
-  /* margin: 20px 24px 4px 24px; */
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -329,12 +322,13 @@ header {
 
 /* Нижний колонтитул */
 .section-footer {
+  padding: 60px 0;
   background: rgba(47, 48, 58, 1);
 }
 
 .WebStudio-footer {
   display: flex;
-  padding-top: 60px;
+
   font-family: 'Raleway';
   color: var(--accent-color);
   font-size: 26px;
@@ -347,7 +341,6 @@ header {
 .main-address {
   display: flex;
   margin-top: 20px;
-  padding-bottom: 60px;
 }
 .address {
   font-style: normal;
