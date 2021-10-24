@@ -49,6 +49,7 @@ img {
 /* Шапка страницы */
 header {
   background-color: var(--primery-white-color);
+  border-bottom: 1px solid #ececec;
 }
 
 /* WebStudio */
@@ -120,9 +121,6 @@ header {
 }
 .auth-nav .link.connection {
   color: var(--title-text-color);
-}
-.container.main-nav {
-  border-bottom: 1px solid #ececec;
 }
 
 /* section hero */
